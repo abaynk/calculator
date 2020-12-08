@@ -1,2 +1,2 @@
-Simple React Calculator app.
-#logic to be added
+Simple React Calculator app.<br>
+/*logic to be added
