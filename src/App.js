@@ -8,6 +8,9 @@ class App extends React.Component {
       value:''
     }
   }
+  // logic:
+  // 1. when you enter  a number or a command, it is stored(added) on value state as a string
+  // 2. 
   render () {
     document.body.style.backgroundColor = '#E6E8E6';
     return (
@@ -16,7 +19,7 @@ class App extends React.Component {
         <div className='calculator-btns'>
           <button type='button' className='clear' value='clear-all'>AC</button>
           <button type='button' className='operator' value='/'>/</button>
-          <button type='button' className='operator' value='x'>x</button>
+          <button type='button' className='operator' value='*'>x</button>
 
           <button type='button' className='number' value='7'>7</button>
           <button type='button' className='number' value='8'>8</button>
