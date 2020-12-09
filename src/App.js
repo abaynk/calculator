@@ -5,13 +5,14 @@ class App extends React.Component {
   constructor (props) {
     super (props);
     this.state = {
-
+      value:''
     }
   }
   render () {
+    document.body.style.backgroundColor = '#E6E8E6';
     return (
       <div className='App'>
-        <input className='input' type='text'></input>
+        <input className='input' type='text' placeholder='Make calculation:' value={this.state.value}></input>
         <div className='calculator-btns'>
           <button type='button' className='clear' value='clear-all'>AC</button>
           <button type='button' className='operator' value='/'>/</button>
