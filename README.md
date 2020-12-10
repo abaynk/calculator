@@ -1,7 +1,7 @@
 <h1>ReactJS Calculator app</h1>
 Simple React Calculator app.<br>
 To access source file:<br>
-src->App.js
+src->App.js<br>
 Logic:<br>
 <ul>
   <li>basically ordinary calculator.</li>
